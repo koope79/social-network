@@ -1,0 +1,19 @@
+.content,
+.content span {
+    padding: 4px 0;
+    color: rgba(255, 66, 66, 0.884);
+}
+
+.formControl input:focus {
+    outline: none;
+}
+
+.formControl.Error input{
+    border: solid rgba(255, 66, 66, 0.884) 2px;
+}
+
+/* .formErrorCommon {
+    padding: 4px 0;
+    color: rgba(255, 66, 66, 0.884);
+} */
+

@@ -1,0 +1,42 @@
+.header{
+    grid-area: h;
+    background-color: rgb(250, 191, 81);
+    border-radius: 5px;
+
+    max-width: 100%;
+  }
+
+.icon {
+    padding: 0px 0px 4% 0px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.icon img {
+  padding: 5px;
+  height: 80%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 40px;
+}
+
+.loginBlock {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  padding: 1%;
+}
+
+.loginBlock a {
+  color: white;
+  text-decoration: none;
+}

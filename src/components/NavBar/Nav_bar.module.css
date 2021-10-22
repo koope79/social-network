@@ -1,0 +1,27 @@
+.nav{
+    grid-area: n;
+    background-color: #61a6d9;;
+    border-radius: 5px;
+    padding: 10px;
+    height: max-content;
+
+    max-width: 100%;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+
+    font-size: calc(10px + (2 + 2* 0.7) * ((100vw - 320px) / 1000)); /*формула расчёта изменения размера текста*/
+    font-weight: 400;
+}
+
+.item a.active{
+    color:#ffef00;
+}
+
+.SettingsStyle{
+    padding-top: 20px;
+}
+
+

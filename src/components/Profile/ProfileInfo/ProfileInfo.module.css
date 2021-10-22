@@ -1,0 +1,73 @@
+.content {
+    max-width: 100%;
+    position: relative;
+}
+
+.profileItems {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-auto-rows: auto;
+
+    grid-gap: 1em;
+}
+
+.avaBlock {
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 100;
+    padding: 5% 5% 2% 5%;
+}
+
+.avaBlock img {
+    max-width: 130px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    object-fit: cover;
+}
+
+.mainAva {
+    width: 100%;
+    height: 100%;
+}
+
+
+.hoverBlock {
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+    border-radius: 100%;
+}
+
+.hoverBlock img {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+}
+
+.desc {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .profileItems{
+        grid-template-columns: auto;
+    }
+    .avaBlock{
+        padding: 0px 0px 23% 0px;
+        left: 10%;
+
+    }
+}
+

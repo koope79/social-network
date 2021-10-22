@@ -1,0 +1,27 @@
+.item{
+  margin-top: 17px;
+  color:black;
+  position: relative;
+}
+
+.avaItem {
+  position: relative;
+  padding: 0px 0px 6% 0px;
+  overflow: hidden;
+}
+
+.avaItem img {
+  position: absolute;
+  height: 100%;
+  max-width: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+.like:hover {
+  color: rgb(255, 80, 80);
+  cursor: pointer;
+}

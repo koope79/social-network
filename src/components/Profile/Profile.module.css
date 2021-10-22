@@ -1,0 +1,11 @@
+.content{
+    grid-area: c;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-rows: 3fr auto;
+    grid-template-columns: auto;
+    grid-gap: 1em;
+
+    max-width: 100%;
+}

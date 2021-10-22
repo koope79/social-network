@@ -1,0 +1,8 @@
+.content {
+    display: inline-block;
+}
+
+.preloader img{
+    max-width: 30px;
+    max-height: 30px;
+}

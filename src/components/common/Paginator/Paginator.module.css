@@ -1,0 +1,11 @@
+.currentPage{
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+.numberPage{
+    display: inline;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 3px;
+}
